@@ -1,4 +1,4 @@
-    # Logistic Regression으로 credit 데이터를 학습한다.
+# Logistic Regression으로 credit 데이터를 학습한다.
 # binary classification (class = [0, 1])
 # ------------------------------------------------
 import pandas as pd
@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
 # Credit data set을 읽어온다
-credit = pd.read_csv('C:/Spyder/Learning_mat/dataset/credit_data.csv')
+credit = pd.read_csv('./dataset/credit_data.csv')
 credit = np.array(credit, dtype=np.float32)
 
 # Train 데이터 세트와 Test 데이터 세트를 구성한다

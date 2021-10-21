@@ -1,4 +1,4 @@
-# Naive Bayes로 credit 데이터를 학습한다.
+# Naive Bayes로 iris 데이터를 학습한다.
 # feature들이 모두 실숫값이므로 gaussian model을 사용한다.
 # ------------------------------------------------------
 from sklearn.datasets import load_iris

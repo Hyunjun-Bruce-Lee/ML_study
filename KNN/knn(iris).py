@@ -1,7 +1,4 @@
 # KNN으로 iris 데이터를 학습한다.
-#
-# scikit-learn을 최신 버전으로 업데이트한다 (ver. 0.22)
-# pip install -U scikit-learn
 # ---------------------------------------------------
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris

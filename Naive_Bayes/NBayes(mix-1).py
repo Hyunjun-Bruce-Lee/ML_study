@@ -1,6 +1,7 @@
 # Naive Bayes 분류기로 income 데이터 세트를 학습한다.
 # categorical과 gaussian feature가 섞여 있는 경우, 각 feature를 분리하여 MultinomialNB와
 # GaussianNB로 나눠서 학습하고 추정 확률을 곱한 값으로 시험 데이터의 label을 추정한다.
+# 데이터 세트 : http://archive.ics.uci.edu/ml/datasets/Adult
 # ------------------------------------------------------------------------------------
 import numpy as np
 import pandas as pd

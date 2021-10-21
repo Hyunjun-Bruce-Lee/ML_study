@@ -3,6 +3,7 @@
 # GaussianNB로 나눠서 학습하고 확률을 추정한다.
 # 추정된 확률로 새로운 데이터 세트를 구성하고, 이것을 gaussian model로 다시 학습한 후
 # 시험 데이터의 정확도를 측정한다.
+# 데이터 세트 : http://archive.ics.uci.edu/ml/datasets/Adult
 # ------------------------------------------------------------------------------------
 import numpy as np
 import pandas as pd
