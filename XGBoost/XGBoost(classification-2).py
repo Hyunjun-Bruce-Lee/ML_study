@@ -18,7 +18,9 @@ testD = xgb.DMatrix(testX, label = testY)
 param = {
     'eta': 0.3, 
     'max_depth': 3,  
-    'objective': 'multi:softprob',  # softmax
+    'objective': 'multi:softprob',
+    # multi:softmax –set XGBoost to do multiclass classification using the softmax objective, you also need to set num_class(number of classes)
+    # multi:softprob –same as softmax, but output a vector of ndata * nclass, which can be further reshaped to ndata, nclass matrix. The result contains predicted probability of each data point belonging to each class.
     'num_class': 3}   # class 개수 = 3개 (multi class classification)
 
 model = xgb.train(params = param, dtrain = trainD, num_boost_round = 20)
