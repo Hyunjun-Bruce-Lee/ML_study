@@ -32,3 +32,4 @@ print("* 시험용 데이터로 측정한 정확도 = %.2f" % accuracy)
 predY = model.predict(trainX)
 accuracy = (trainY == predY).mean()
 print("* 학습용 데이터로 측정한 정확도 = %.2f" % accuracy)
+
